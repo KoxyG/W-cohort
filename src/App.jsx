@@ -3,8 +3,8 @@ import Button from './component/Button'
 
 function App() {
  
-  // const background = "../src/assets/screw.jpg";
-  const background = "../src/assets/ww.png"
+   const background = "/screw.jpg";
+  
 
   return (
     <>
