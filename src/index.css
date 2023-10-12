@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap');
+
+:root {
+  font-family: Roboto Condensed;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  
+}
+
+.textarea-ellipsis {
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  box-orient: vertical;
+  -webkit-line-clamp: 3;
+  -moz-line-clamp: 3;
+  line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ButtonX {
+  position: relative;
+}
+.ButtonX {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  overflow: hidden;
+  background: linear-gradient(to right, transparent 50%, white 50%);
+  background-size: 200% 100%;
+  transition: background-position 0.55s;
+  background-position: 0 -100%;
+
+}
+
+.ButtonX:hover {
+  color: black;
+  background-position: -100% 0;
+  background: linear-gradient(to right, transparent 50%, );
+  cursor: pointer;
+}
+
+
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
