@@ -13,7 +13,7 @@ function App() {
   return (
     <>
      <div>
-      <div style={backgroundCon} className='z-10 bg-cover bg-center h-screen flex items-center justify-center'>
+      <div style={backgroundCon} ref={el => el && el.setAttribute('src', '/src/assets/screw.jpg')} rel="stylesheet" className='z-10 bg-cover bg-center h-screen flex items-center justify-center'>
         <div>
           <div className='grid text-[#c4b3da] '>
             <h1 className='text-[10px] md:pl-[20px] tracking-wide md:text-[17px] pb-2 md:pb-6 leading-3'>BRITTEN</h1>
